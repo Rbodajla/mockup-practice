@@ -1,0 +1,131 @@
+
+.container {
+  diplay: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ .section {
+  order: 1;
+  height: 16rem;
+  flex: 0 0 100%;
+  background: black;
+}
+
+/*inside section*/
+.toplink a:link {
+    display: flex;
+    color: red;
+    flex-direction: row-reverse;
+    text-decoration: underline;
+  }
+
+
+.kitties-main-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  color: #FFFAF0;
+
+  }
+
+.seattles-premiere-header {
+  color: #D3D3D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+ .link-tool-bar {
+  order:2;
+  height: 5rem;
+  background: #D3D3D3;
+
+  }
+
+ .tool-bar-text {
+  flex-direction: column;
+  align-content: stretch;
+  text-align: center;
+  font size: 52px;
+  align-content: stretch;
+    }
+
+  .flexbox-container {
+ 	  display: -ms-flex;
+  	display: -webkit-flex;
+  	display: flex;
+    }
+
+  .flexbox-container > aside {
+    	width: 50%;
+    	padding: 10px;
+    }
+
+  .flexbox-container > article:first-child {
+    	margin-right: 20px;
+    }
+
+ .kitties-story-testimonials {
+  order: 3;
+  min-height: 400px;
+  flex-direction: column;
+  flex:0 0 0 40
+  }
+
+.aside-container {
+    order: 4;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: 100px;
+  }
+
+  .border {
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 2px black;
+    align-items: stretch;
+    padding: 5 0 5 0;
+
+    }
+
+.italics {
+  text-decoration: italics
+  }
+
+.contact-info {
+  display: inline-block;
+  border: 0rem solid #ccc;
+  background: black;
+  margin: auto;
+  height: 10rem;
+  width: 95rem;
+  text-align: center;
+
+  }
+
+.text-contact-kitties {
+  text-align: left;
+  list-style-type: none;
+    color: #FFFAF0;
+  display: list-item;
+
+  }
+
+.email-link a:link {
+  color: red;
+  float: left;
+  text-decoration: underline;
+  display:inline-block;
+
+  }
+
+  .footer-message {
+      list-style-type: none;
+      color: white;
+      display: list-item;
+    }
+
+
+  /* Top Right Bottom Left*/
